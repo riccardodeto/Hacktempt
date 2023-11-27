@@ -1,0 +1,196 @@
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+}
+
+body{
+  overflow-y: hidden;
+}
+
+@media screen and (min-width:768px)
+{
+    .leftside, .rightside {
+        height: 100vh;
+
+    }
+}
+
+.leftside-container{
+  color:white;
+  padding: 12%;
+  text-align: center;
+}
+
+
+.leftside {
+    background: #222831;
+}
+
+.rightside {
+    background: #EEEEEE;
+    color: black;
+    padding: 12%;
+    align-items: center;
+}
+
+.line{
+  border: 3px solid #393E46;
+  border-radius: 3px;
+  height: 4px;
+  width: 40%;
+  margin: auto;
+}
+
+.logo
+{
+    margin-left: 10px;
+}
+
+.step{
+    color: #FFD369;
+    text-align: right;
+    margin-top: -65px;
+    margin-right: 10px;
+}
+
+h2{
+  font-size: 25px;
+  margin: auto;
+
+}
+
+h1{
+  color: #FFD369;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 20px;
+}
+
+.dotXL {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-left: -8%;
+  margin-top: -14%;
+  display: block;
+  background-color: #393E46;
+}
+
+.dotXL2 {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-left: 22%;
+  margin-top: -18%;
+  display: block;
+  background-color: #393E46;
+}
+
+.dotS {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: -30%;
+  display: block;
+  background-color: #393E46;
+}
+
+.dotXS {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-left: 27%;
+  margin-top: -3%;
+  display: block;
+  background-color: #393E46;
+}
+
+
+.dotXXL {
+  height: 200px;
+  width: 200px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: -10%;
+  display: block;
+  background-color: #393E46;
+}
+
+.titolodestra {
+    font-size: 45px;
+    color: #222831;
+}
+
+.rightside{
+  text-align: center;
+}
+
+.label{
+  margin-left: -30%;
+  margin-bottom: -5%;
+  margin-top: 3%;
+  font-weight: bold;
+  color: #222831;
+}
+
+.input{
+  border-radius: 15px;
+  width: 50%;
+  height: 8%;
+  border:  1px solid grey;
+  text-align: center;
+}
+
+.button{
+  background-color: #FFD369;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid grey;
+  width: 20%;
+  height: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #393E46;
+  font-weight: bold;
+}
+
+.description-container{
+  color: white;
+  background-color: #393E46;
+  height: 35%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 3%;
+  border-radius: 15px;
+}
+
+.description{
+  font-size: 14px;
+}
+
+.next{
+  border: 0px;
+  margin-top: 5%;
+  font-weight: bold;
+  color: #393E46;
+  cursor: pointer;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
